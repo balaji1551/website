@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .projects {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+    color:orange;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color:orange;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <img src=""  class="logo"> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="PROJECT.HTML">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <!-- IMG -->
+            <img
+              src="images/love.png"
+              alt="LOVE CALCULATOR"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">LOVE CALCULATOR</h3>
+            <p class="project-details">
+              THIS A LOVE CALCULATOR AND THIS IS 
+                 MADE WITH HTML,CSS,JAVASCRIPT
+                    MUST VISIT WEBSITE LINK IS GIVEN BELOW
+            </p>
+            <a href="https://balaji1551.github.io/lovefun/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <!-- IMG ADDING -->
+            <img
+              src="images/billing system.png"
+              alt="BILLING SYSTEM"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">BILLING SYSTEM</h3>
+            <p class="project-details">
+              THIS IS A BILLING SYSTEM DEVELOPED 
+                 IN C PROGRAMMING LANGUAGE
+              LINK IS GIVEN BELOW MUST VISIT    
+            </p>
+            <a href="https://github.com/balaji1551/Restaurant-bill-system" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <!-- IMAGE ADDING -->
+            <img
+              src="images/portfolio.png"
+              alt="PORTFOLIO"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">PORTFOLIO</h3>
+            <p class="project-details">
+              THIS IS MY PERSONAL RESPONSIVE
+               WEBSITE DEVELOPED IN HTML&CSS 
+            </p>
+            <a href="" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
